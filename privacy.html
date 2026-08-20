@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy Policy | eeleanor__</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;800;900&family=Heebo:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#fbe3ea;
+    --white:#ffffff;
+    --pink-soft:#f6a8c7;
+    --pink-hot:#ef2f79;
+    --crimson:#d81a3e;
+    --crimson-dark:#a10f2e;
+    --ink:#251015;
+    --gold:#f5a623;
+    --cyan:#3fe0e8;
+    --a11y-bg:#1c1418;
+    --font-scale:1;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:calc(100% * var(--font-scale));}
+  html,body{margin:0;padding:0;background:var(--cream);}
+  body{font-family:'Heebo',sans-serif;color:var(--ink);min-height:100vh;}
+
+  .page{max-width:520px;margin:0 auto;padding:44px 22px 70px;position:relative;}
+
+  .back{
+    display:inline-flex;align-items:center;gap:6px;
+    font-family:'Space Mono',monospace;font-size:.78rem;
+    color:var(--crimson-dark);text-decoration:none;
+    border:2px dashed var(--crimson);border-radius:999px;
+    padding:6px 14px;margin-bottom:24px;direction:ltr;unicode-bidi:isolate;
+  }
+  .back:hover{background:var(--white);}
+
+  h1{
+    font-family:'Rubik',sans-serif;font-weight:900;font-size:1.5rem;
+    margin:0 0 6px;direction:ltr;unicode-bidi:isolate;text-align:right;
+  }
+  .updated{font-family:'Space Mono',monospace;font-size:.7rem;opacity:.55;margin:0 0 24px;direction:ltr;unicode-bidi:isolate;text-align:right;}
+
+  .card{
+    background:var(--white);border:2.5px solid var(--ink);
+    border-radius:20px 20px 20px 4px;
+    padding:22px 22px;box-shadow:5px 5px 0 var(--ink);
+    line-height:1.85;font-size:.98rem;
+  }
+  .card h2{font-family:'Rubik',sans-serif;font-size:1.05rem;margin:22px 0 8px;}
+  .card h2:first-child{margin-top:0;}
+  .card p{margin:0 0 6px;}
+  .card a{color:var(--crimson-dark);}
+
+  .note{
+    margin-top:20px;font-size:.8rem;opacity:.65;
+    background:var(--white);border:2px dashed var(--crimson);
+    border-radius:14px;padding:12px 16px;
+  }
+
+  .a11y-btn{
+    position:fixed;bottom:18px;left:18px;z-index:60;
+    width:52px;height:52px;border-radius:50%;
+    background:var(--a11y-bg);color:var(--cyan);
+    border:2px solid var(--cyan);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;animation:pulseGlow 2.6s ease-in-out infinite;
+  }
+  .a11y-btn:focus-visible{outline:3px solid var(--gold);outline-offset:3px;}
+  .a11y-panel{
+    position:fixed;bottom:80px;left:18px;z-index:60;
+    background:var(--a11y-bg);border:2px solid var(--cyan);border-radius:16px;
+    padding:14px;display:flex;flex-direction:column;gap:8px;
+    width:210px;box-shadow:0 0 20px rgba(63,224,232,.35), 0 10px 26px rgba(0,0,0,.4);
+  }
+  .a11y-panel[hidden]{display:none;}
+  .a11y-title{margin:0 0 2px;font-weight:700;font-family:'Rubik',sans-serif;font-size:.95rem;color:#fff;}
+  .a11y-panel button{
+    border:1.5px solid rgba(63,224,232,.5);background:transparent;border-radius:8px;
+    padding:7px 10px;font-size:.8rem;cursor:pointer;text-align:right;
+    font-family:'Heebo',sans-serif;color:#fff;
+  }
+  .a11y-panel button:hover{background:rgba(63,224,232,.15);border-color:var(--cyan);}
+  .a11y-panel hr{border:none;border-top:1px solid rgba(63,224,232,.25);margin:2px 0;width:100%;}
+
+  @keyframes pulseGlow{
+    0%,100%{box-shadow:0 0 0 0 rgba(63,224,232,.55), 0 0 14px 2px rgba(63,224,232,.5), 0 8px 20px rgba(0,0,0,.35);}
+    50%{box-shadow:0 0 0 9px rgba(63,224,232,0), 0 0 20px 4px rgba(63,224,232,.75), 0 8px 20px rgba(0,0,0,.35);}
+  }
+  body.no-motion *{animation:none !important;transition:none !important;}
+  body.underline-links a{text-decoration:underline !important;}
+  body.high-contrast{background:#fff;}
+  body.high-contrast .card{background:#fff !important;border-color:#000;color:#000;box-shadow:5px 5px 0 #000;}
+  @media (prefers-reduced-motion: reduce){*{animation:none !important;transition:none !important;}}
+</style>
+</head>
+<body>
+
+<main class="page">
+  <a class="back" href="eeleanor-linkhub.html">← Back to links</a>
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated · August 2026</p>
+
+  <div class="card">
+    <h2>מה העמוד הזה עושה</h2>
+    <p>זהו עמוד קישורים אישי (link-in-bio) בלבד. הוא לא כולל טופס הרשמה, לא שומר סיסמאות, ולא אוסף מידע אישי מעבר למה שדפדפנים ושירותי אחסון אוספים באופן סטנדרטי (כמו כתובת IP כללית וסוג דפדפן) לצורך תפעול ואבטחה בסיסיים.</p>
+
+    <h2>קישורי שותפים וקודי הנחה</h2>
+    <p>חלק מהקישורים בעמוד הם קישורי שותפים (affiliate) או קודי הנחה. לחיצה עליהם מעבירה אותך לאתר חיצוני שאינו בבעלותנו ואינו בשליטתנו — ולכל אתר כזה יש מדיניות פרטיות ותנאי שימוש משלו, שכדאי לבדוק בנפרד.</p>
+
+    <h2>עוגיות (Cookies)</h2>
+    <p>העמוד עצמו לא משתמש בעוגיות מעקב. ייתכן שהאתרים החיצוניים שהקישורים מפנים אליהם כן משתמשים בעוגיות משלהם, בהתאם למדיניות שלהם.</p>
+
+    <h2>שינויים במדיניות</h2>
+    <p>המדיניות עשויה להתעדכן מדי פעם כדי לשקף שינויים בעמוד. מומלץ להציץ כאן מדי פעם.</p>
+
+    <h2>יצירת קשר</h2>
+    <p>לכל שאלה בנוגע לפרטיות אפשר לפנות בהודעה פרטית באינסטגרם.</p>
+  </div>
+
+  <p class="note">מסמך זה הוא הצהרה כללית המתארת כיצד העמוד פועל, ואינה מהווה ייעוץ משפטי.</p>
+</main>
+
+<button type="button" class="a11y-btn" id="a11yBtn" aria-label="פתיחת תפריט נגישות" aria-expanded="false" aria-controls="a11yPanel">
+  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"/>
+    <circle cx="12" cy="7.6" r="1.5" fill="currentColor" stroke="none"/>
+    <path d="M7 10.6c1.6.9 3.2 1.3 5 1.3s3.4-.4 5-1.3"/>
+    <path d="M12 11.9v3"/>
+    <path d="M12 14.9l-2.5 4"/>
+    <path d="M12 14.9l2.5 4"/>
+  </svg>
+</button>
+
+<div class="a11y-panel" id="a11yPanel" hidden>
+  <p class="a11y-title">נגישות</p>
+  <button type="button" data-action="inc">הגדלת טקסט A+</button>
+  <button type="button" data-action="dec">הקטנת טקסט A-</button>
+  <button type="button" data-action="contrast">ניגודיות גבוהה</button>
+  <button type="button" data-action="underline">הדגשת קישורים</button>
+  <button type="button" data-action="motion">עצירת אנימציה</button>
+  <hr>
+  <button type="button" data-action="reset">איפוס הגדרות</button>
+</div>
+
+<script>
+(function(){
+  var root = document.documentElement;
+  var scale = 1, contrast = false, motionOff = false, underline = false;
+  var btn = document.getElementById('a11yBtn');
+  var panel = document.getElementById('a11yPanel');
+
+  btn.addEventListener('click', function(){
+    var willOpen = panel.hasAttribute('hidden');
+    if (willOpen) { panel.removeAttribute('hidden'); btn.setAttribute('aria-expanded','true'); }
+    else { panel.setAttribute('hidden',''); btn.setAttribute('aria-expanded','false'); }
+  });
+
+  panel.addEventListener('click', function(e){
+    var action = e.target.getAttribute('data-action');
+    if (!action) return;
+    if (action === 'inc') { scale = Math.min(1.5, scale + 0.1); root.style.setProperty('--font-scale', scale); }
+    else if (action === 'dec') { scale = Math.max(0.8, scale - 0.1); root.style.setProperty('--font-scale', scale); }
+    else if (action === 'contrast') { contrast = !contrast; document.body.classList.toggle('high-contrast', contrast); }
+    else if (action === 'underline') { underline = !underline; document.body.classList.toggle('underline-links', underline); }
+    else if (action === 'motion') { motionOff = !motionOff; document.body.classList.toggle('no-motion', motionOff); }
+    else if (action === 'reset') {
+      scale = 1; contrast = false; motionOff = false; underline = false;
+      root.style.setProperty('--font-scale', 1);
+      document.body.classList.remove('high-contrast','no-motion','underline-links');
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
